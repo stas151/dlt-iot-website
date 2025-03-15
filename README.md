@@ -1,0 +1,80 @@
+# dlt-iot-website 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLT IoT Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .neon-text {
+            text-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <header class="py-4 bg-opacity-20 glass">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold neon-text">DLT IoT Platform</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-blue-400">О платформе</a></li>
+                    <li><a href="#benefits" class="hover:text-blue-400">Преимущества</a></li>
+                    <li><a href="#contact" class="hover:text-blue-400">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="text-center py-20">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-bold neon-text">Web3 + IoT + NFT-сертификация</h2>
+            <p class="text-xl mt-4">Будущее цифровой безопасности уже здесь</p>
+            <a href="#contact" class="mt-6 inline-block bg-blue-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-400">Стать партнёром</a>
+        </div>
+    </section>
+
+    <section id="about" class="container mx-auto py-16 px-6 glass">
+        <h2 class="text-3xl font-bold text-blue-400">О платформе</h2>
+        <p>Мы создаем передовую систему для сертификации IoT-устройств с использованием блокчейна и DAG.</p>
+    </section>
+
+    <section id="benefits" class="py-16 glass">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-blue-400">Преимущества</h2>
+            <ul class="grid grid-cols-1 md-grid-cols-3 gap-6 mt-6">
+                <li class="p-6 rounded shadow-md bg-opacity-30">✅ Гибридная DLT: высокая скорость и масштабируемость</li>
+                <li class="p-6 rounded shadow-md bg-opacity-30">✅ NFT-сертификация: защита от подделки IoT-устройств</li>
+                <li class="p-6 rounded shadow-md bg-opacity-30">✅ API и SaaS: лёгкая интеграция</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="container mx-auto py-16 px-6 glass">
+        <h2 class="text-3xl font-bold text-blue-400">Свяжитесь с нами</h2>
+        <p class="text-lg mt-4">📩 Email: <a href="mailto:stasmiheev151@gmail.com" class="text-blue-400">stasmiheev151@gmail.com</a></p>
+        <p class="text-lg">📞 Телефон: <a href="tel:+79132967510" class="text-blue-400">+7(913)-296-75-10</a></p>
+        <p class="text-lg">💬 Telegram: <a href="https://t.me/miheevstas" class="text-blue-400">@miheevstas</a></p>
+        <form class="mt-6">
+            <input type="text" placeholder="Ваше имя" class="w-full mb-4 px-4 py-2 border rounded bg-gray-800 text-white" required>
+            <input type="email" placeholder="Ваш email" class="w-full mb-4 px-4 py-2 border rounded bg-gray-800 text-white" required>
+            <textarea placeholder="Ваше сообщение" class="w-full mb-4 px-4 py-2 border rounded bg-gray-800 text-white" required></textarea>
+            <button type="submit" class="bg-blue-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-blue-400">Отправить</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4 mt-10 glass">
+        <p>&copy; 2025 DLT IoT Platform. Все права защищены.</p>
+    </footer>
+</body>
+</html>
